@@ -213,6 +213,8 @@ def generate_json_metrics(config):
         'amc_service_status': lambda: check_service_status('amc'),
         'dmp_service_status': lambda: check_service_status('dmp-server'),
         'docker_service_status': lambda: check_service_status('docker'),
+        'apache2_service_status': lambda: check_service_status('apache2'),
+        'mysql_service_status': lambda: check_service_status('mysql'),
 }
 
     for key, settings in config.items():
