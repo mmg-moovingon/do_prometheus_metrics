@@ -212,6 +212,7 @@ def generate_json_metrics(config):
         'nginx_service_status': lambda: check_service_status('nginx'),
         'amc_service_status': lambda: check_service_status('amc'),
         'dmp_service_status': lambda: check_service_status('dmp-server'),
+        'docker_service_status': lambda: check_service_status('docker'),
 }
 
     for key, settings in config.items():
