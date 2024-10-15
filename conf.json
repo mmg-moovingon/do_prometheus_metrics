@@ -1,0 +1,14 @@
+{
+
+    "server_type": {
+        "input": false
+    },
+    "sentinel_service_status": {
+        "input": false
+    },
+    "ssh_service_status": {
+        "input": false
+    },
+
+
+}
